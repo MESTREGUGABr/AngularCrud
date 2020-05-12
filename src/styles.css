@@ -1,0 +1,21 @@
+@import '~ngx-toastr/toastr';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~ngx-toastr/toastr-bs4-alert';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~ngx-toastr/toastr-bs4-alert';
+input.ng-touched.ng-invalid{
+    border-color: #dc3545;
+}
+
+div.validation-error{
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+table.table-hover tbody tr:hover{
+    cursor: pointer;
+}
